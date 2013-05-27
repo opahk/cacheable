@@ -1,6 +1,8 @@
 # Cacheable
 
-TODO: Write a gem description
+[![Build Status](https://travis-ci.org/opahk/cacheable.png?branch=master)](https://travis-ci.org/opahk/cacheable)
+
+Cacheable is a lightweight, db-agnostic low-level caching mechanism for Rails.
 
 ## Installation
 
