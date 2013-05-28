@@ -8,3 +8,6 @@ rvm:
   - rbx-19mode
   - rbx-head
 script: rspec
+matrix:
+  allow_failures:
+    - rvm: rbx-head
