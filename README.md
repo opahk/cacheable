@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/opahk/cacheable.png?branch=master)](https://travis-ci.org/opahk/cacheable)
 [![Coverage Status](https://coveralls.io/repos/opahk/cacheable/badge.png)](https://coveralls.io/r/opahk/cacheable)
+[![Code Climate](https://codeclimate.com/github/opahk/cacheable.png)](https://codeclimate.com/github/opahk/cacheable)
 
 Cacheable is a lightweight, db-agnostic low-level caching mechanism for Rails.
 
@@ -21,7 +22,25 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+In your model, do something like this
+
+    class MyModel
+      include Cacheable
+      def my_method
+        ...
+      end
+      cacheable :my_method
+    end
+
+It also works for class methods
+
+    class MyModel
+      include Cacheable
+      def self.my_method
+        ...
+      end
+      class_cacheable :my_method
+    end
 
 ## Contributing
 
