@@ -1,6 +1,7 @@
 # Cacheable
 
 [![Build Status](https://travis-ci.org/opahk/cacheable.png?branch=master)](https://travis-ci.org/opahk/cacheable)
+[![Coverage Status](https://coveralls.io/repos/opahk/cacheable/badge.png)](https://coveralls.io/r/opahk/cacheable)
 
 Cacheable is a lightweight, db-agnostic low-level caching mechanism for Rails.
 
